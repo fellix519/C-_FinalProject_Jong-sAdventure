@@ -6,7 +6,7 @@ namespace ObstacleControll
     public class ObstacleGenerator : MonoBehaviour
     {
         public GameObject Obs;
-        public float timeDiff=1.0f;
+        public float timeDiff=0.23f;
         float timer = 0;
         // Start is called before the first frame update
         public GameObject SetObPos(int input,GameObject Ob)

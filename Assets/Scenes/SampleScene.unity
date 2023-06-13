@@ -453,7 +453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Obs: {fileID: 1810495376}
-  timeDiff: 5
+  timeDiff: 0.23
 --- !u!4 &1546664332
 Transform:
   m_ObjectHideFlags: 0
