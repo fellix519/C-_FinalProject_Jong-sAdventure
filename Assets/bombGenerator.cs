@@ -40,7 +40,7 @@ namespace ObstacleControll
                     if (isPosHigh != postIPH) break;
                 }
                  
-                 Debug.Log(isPosHigh + " " + postIPH);
+                Debug.Log(isPosHigh + " " + postIPH);
                 postIPH = isPosHigh;
                 //}while (isPosHigh != postIPH);
 
