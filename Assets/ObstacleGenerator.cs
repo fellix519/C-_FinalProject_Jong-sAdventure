@@ -13,7 +13,6 @@ namespace ObstacleControll
         {
 
         }
-
         // Update is called once per frame
         public void Update()
         {
@@ -26,6 +25,7 @@ namespace ObstacleControll
                 var newSpike = Instantiate(Obs);
                 newSpike.transform.position = new Vector3(5.44000006f, -2.98000002f, 0);
                 timer = 0;
+                Destroy(newSpike, 10.0f);
             }
 
         }
