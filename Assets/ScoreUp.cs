@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ScoreUp : MonoBehaviour
 {
-    private void OnCollision2D(Collider2D other)
+    private void OnCollisionEnter2D(Collider2D other)
     {
 
         Score.score++;

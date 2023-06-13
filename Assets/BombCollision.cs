@@ -2,15 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StarCollision : MonoBehaviour
+public class BombCollision : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.name== "bird" && other.gameObject.name!="star")
+        if (other.gameObject.name == "bird" && other.gameObject.name != "bomb")
         {
-            Score.score++;
+            Score.score--;
+
             Destroy(this.gameObject);
             Debug.Log("dddddsss");
-        }   
+        }
     }
 }

@@ -49,8 +49,8 @@ namespace ObstacleControll
                 newBomb1 =base.SetObPos(isPosHigh, newBomb1);
                 //newBomb.transform.position = new Vector3(6.69000006f, Random.Range(-1.32000005f, 2.18000007f), 0);
                 timer = 0;
-                
 
+                Destroy(newBomb1, 5.0f);
             }
 
         }
