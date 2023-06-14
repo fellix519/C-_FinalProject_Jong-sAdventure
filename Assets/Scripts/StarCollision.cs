@@ -8,8 +8,9 @@ public class StarCollision : MonoBehaviour
     {
         if(other.gameObject.name== "bird" && other.gameObject.name!="star")
         {
-            Score.score++;
+            Score.score+=10;
             Destroy(this.gameObject);
+            
             Debug.Log("dddddsss");
         }   
     }

@@ -1,21 +1,14 @@
 ﻿<Properties StartupConfiguration="{3E16BE19-F1E0-6CEC-A8F7-DA378298A114}|">
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Move.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreUp.cs">
     <Files>
-      <File FileName="Assets/DisapperIfCollid.cs" />
-      <File FileName="Assets/StarCollision.cs" />
-      <File FileName="Assets/BirdCollision.cs" />
-      <File FileName="Assets/StarGenerator.cs" />
-      <File FileName="Assets/bombGenerator.cs" />
-      <File FileName="Assets/ObstacleGenerator.cs" />
-      <File FileName="Assets/ScoreUp.cs" />
-      <File FileName="Assets/Move.cs" Line="11" Column="9" />
+      <File FileName="Assets/Scripts/ScoreUp.cs" Line="9" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="62c39d0c-3672-4ea2-9a7a-87fbdd8ddcc1" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3393491d-09ae-44aa-9633-15ca96f6c9bf" />
 </Properties>
